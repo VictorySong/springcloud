@@ -6,7 +6,7 @@ spring:
     name: eurekaclient
     
 song:
-  name: song11
+  name: songhaha
 
 management:
   endpoints:
