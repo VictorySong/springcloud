@@ -7,3 +7,9 @@ spring:
     
 song:
   name: song
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
