@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: eurekaclient
+    
+spring:
+  profiles:
+    active: 8763
