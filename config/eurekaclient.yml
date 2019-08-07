@@ -5,6 +5,5 @@ spring:
   application:
     name: eurekaclient
     
-spring:
-  profiles:
-    active: 8763
+song:
+  name: song
