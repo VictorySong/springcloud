@@ -16,7 +16,7 @@ spring:
       type: web
   sleuth:
     sampler:
-      probability: 0.9
+      probability: 1
     
 song:
   name: song_client
