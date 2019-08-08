@@ -12,4 +12,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info
+        include: refresh,health,info,bus-refresh
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5762
+    username: guest
+    password: guest
+    virtualHost: /
+    publisherConfirms: true
