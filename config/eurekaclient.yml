@@ -6,7 +6,7 @@ spring:
     name: eurekaclient
   rabbitmq:
     host: 127.0.0.1
-    port: 5762
+    port: 5672
     username: guest
     password: guest
     virtualHost: /
