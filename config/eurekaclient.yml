@@ -13,7 +13,7 @@ spring:
     publisherConfirms: true
     
 song:
-  name: song_client
+  name: song_cli
 
 management:
   endpoints:
